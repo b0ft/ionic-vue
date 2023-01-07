@@ -30,13 +30,7 @@
 </template>
 
 <script lang="ts">
-import {
-    IonContent,
-    IonHeader,
-    IonPage,
-    IonTitle,
-    IonToolbar,
-} from "@ionic/vue";
+import { IonContent, IonHeader, IonPage, IonTitle } from "@ionic/vue";
 import axios from "axios";
 import { defineComponent } from "vue";
 
