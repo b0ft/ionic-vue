@@ -49,9 +49,14 @@ export default defineComponent({
         IonTitle,
         IonToolbar,
     },
+    data() {
+        return {
+            test: "",
+        };
+    },
     setup() {
         axios
-            .get("http://127.0.0.1:5000/signin")
+            .get("http://127.0.0.1:5000/result/awikwok@gmail.com")
             .then((res) => {
                 console.log(res);
             })
