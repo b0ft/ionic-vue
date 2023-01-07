@@ -30,7 +30,7 @@
 </template>
 
 <script lang="ts">
-import { IonContent, IonHeader, IonPage } from "@ionic/vue";
+import { IonContent, IonHeader } from "@ionic/vue";
 import axios from "axios";
 import { defineComponent } from "vue";
 
@@ -39,7 +39,6 @@ export default defineComponent({
     components: {
         IonContent,
         IonHeader,
-        IonPage,
     },
     data() {
         return {
@@ -48,7 +47,7 @@ export default defineComponent({
     },
     setup() {
         axios
-            .get("http://127.0.0.1:5000/result/awikwok@gmail.com")
+            .get("http://127.0.0.1:5000/result/ahaha@gmail.com")
             .then((res) => {
                 console.log(res);
             })
