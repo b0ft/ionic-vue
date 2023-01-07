@@ -30,7 +30,7 @@
 </template>
 
 <script lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle } from "@ionic/vue";
+import { IonContent, IonHeader, IonPage } from "@ionic/vue";
 import axios from "axios";
 import { defineComponent } from "vue";
 
@@ -40,7 +40,6 @@ export default defineComponent({
         IonContent,
         IonHeader,
         IonPage,
-        IonTitle,
     },
     data() {
         return {
