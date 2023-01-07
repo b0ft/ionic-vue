@@ -24,13 +24,24 @@
                         >UI Components</a
                     >
                 </p>
+                <ion-slides>
+                    <ion-slide>
+                        <h1>Slide 1</h1>
+                    </ion-slide>
+                    <ion-slide>
+                        <h1>Slide 2</h1>
+                    </ion-slide>
+                    <ion-slide>
+                        <h1>Slide 3</h1>
+                    </ion-slide>
+                </ion-slides>
             </div>
         </ion-content>
     </ion-page>
 </template>
 
 <script lang="ts">
-import { IonContent, IonHeader } from "@ionic/vue";
+import { IonContent, IonHeader, IonSlides } from "@ionic/vue";
 import axios from "axios";
 import { defineComponent } from "vue";
 
@@ -39,6 +50,7 @@ export default defineComponent({
     components: {
         IonContent,
         IonHeader,
+        IonSlides,
     },
     data() {
         return {
