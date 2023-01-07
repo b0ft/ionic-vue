@@ -51,9 +51,12 @@ export default defineComponent({
     },
     setup() {
         axios
-            .get("https://jsonplaceholder.typicode.com/todos/1")
+            .get("http://127.0.0.1:5000/signin")
             .then((res) => {
                 console.log(res);
+            })
+            .catch((err) => {
+                console.log(err);
             });
     },
 });
