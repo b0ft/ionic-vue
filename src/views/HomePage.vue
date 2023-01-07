@@ -47,7 +47,6 @@ export default defineComponent({
         IonHeader,
         IonPage,
         IonTitle,
-        IonToolbar,
     },
     data() {
         return {
